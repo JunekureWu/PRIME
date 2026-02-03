@@ -1,2 +1,5 @@
-# PRIME
-A bayesian framework integrating prior knowledge for network reconstruction from multi-omics data
+<img src="images/logo/PRIME_logo.png" width="200"> <br>
+# PRIME - A bayesian framework integrating prior knowledge for network reconstruction from multi-omics data
+---
+## Overview
+&emsp;&emsp;**PRIME** is a comprehensive framework designed to infer and refine high-confidence gene regulatory networks (GRNs) through Bayesian integration of prior knowledge. We integrate epigenetic data for over 1,000 transcription factors (TFs), including ChIP-seq and Hi-C datasets, with cutting-edge single-cell perturbation datasets (CRISPRi, CRISPRa, CRISPR-KO, and CRISPR-KD) across diverse cell lines and types. Using these resources, we constructed **Prior References (PR)** — <u>a robust reference network of TF-to-target gene (TF2TG), TF-to-regulatory element (TF2RE), and regulatory element-to-target gene (RE2TG) relationships</u>. With PR as a Bayesian prior, users can apply *PRIME* to refine their own inferred GRNs, yielding more accurate and biologically meaningful results. The framework also supports direct inference of TF-TG-RE relationships and allows incorporation of <u> user-defined reference </u> data for *customized updates*.
